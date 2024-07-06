@@ -12,7 +12,7 @@ import streamlit as st
 
 #loading the saved model 
 
-loaded_model = pickle.load(open('C:/Users/ABC/OneDrive/Desktop/creditcard.pkl', 'rb'))
+loaded_model = pickle.load(open('creditcard.pkl', 'rb'))
 
 # Function to simulate the prediction process
 def predict_fraud(time, amount, features):
